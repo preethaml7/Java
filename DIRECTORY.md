@@ -182,7 +182,7 @@
               * [TrieImp](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/trees/TrieImp.java)
               * [VerticalOrderTraversal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/trees/VerticalOrderTraversal.java)
               * [ZigzagTraversal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/trees/ZigzagTraversal.java)
-          * utils
+          * devutils
             * entities
               * [ProcessDetails](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/devutils/entities/ProcessDetails.java)
             * nodes
@@ -332,6 +332,7 @@
             * [SquareRootWithNewtonRaphsonMethod](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/SquareRootWithNewtonRaphsonMethod.java)
             * [StandardDeviation](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/StandardDeviation.java)
             * [StandardScore](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/StandardScore.java)
+            * [StrobogrammaticNumber](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/StrobogrammaticNumber.java)
             * [SumOfArithmeticSeries](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/SumOfArithmeticSeries.java)
             * [SumOfDigits](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/SumOfDigits.java)
             * [SumWithoutArithmeticOperators](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/SumWithoutArithmeticOperators.java)
@@ -679,6 +680,7 @@
             * [SquareRootWithNewtonRaphsonTestMethod](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/SquareRootWithNewtonRaphsonTestMethod.java)
             * [StandardDeviationTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/StandardDeviationTest.java)
             * [StandardScoreTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/StandardScoreTest.java)
+            * [StrobogrammaticNumberTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/StrobogrammaticNumberTest.java)
             * [SumOfArithmeticSeriesTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/SumOfArithmeticSeriesTest.java)
             * [SumOfDigitsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/SumOfDigitsTest.java)
             * [SumWithoutArithmeticOperatorsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/maths/SumWithoutArithmeticOperatorsTest.java)
