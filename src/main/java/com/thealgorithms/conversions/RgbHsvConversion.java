@@ -10,10 +10,12 @@ import java.util.Arrays;
  * models how colors appear under light. In it, colors are represented using
  * three components: hue, saturation and (brightness-)value. This class provides
  * methods for converting colors from one representation to the other.
- * (description adapted from https://en.wikipedia.org/wiki/RGB_color_model and
- * https://en.wikipedia.org/wiki/HSL_and_HSV).
+ * (description adapted from <a href="https://en.wikipedia.org/wiki/RGB_color_model">[1]</a> and
+ * <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">[2]</a>).
  */
-public class RgbHsvConversion {
+public final class RgbHsvConversion {
+    private RgbHsvConversion() {
+    }
 
     public static void main(String[] args) {
         // Expected RGB-values taken from https://www.rapidtables.com/convert/color/hsv-to-rgb.html

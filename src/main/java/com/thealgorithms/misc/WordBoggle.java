@@ -1,8 +1,15 @@
 package com.thealgorithms.misc;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-public class WordBoggle {
+public final class WordBoggle {
+    private WordBoggle() {
+    }
 
     /**
      * O(nm * 8^s + ws) time where n = width of boggle board, m = height of
@@ -22,36 +29,6 @@ public class WordBoggle {
             }
         }
         return new ArrayList<>(finalWords);
-    }
-
-    public static void main(String[] args) {
-        // Testcase
-        List<String> ans = new ArrayList<>(Arrays.asList("a", "boggle", "this", "NOTRE_PEATED", "is", "simple", "board"));
-        assert (boggleBoard(
-            new char[][] {
-                {'t', 'h', 'i', 's', 'i', 's', 'a'},
-                {'s', 'i', 'm', 'p', 'l', 'e', 'x'},
-                {'b', 'x', 'x', 'x', 'x', 'e', 'b'},
-                {'x', 'o', 'g', 'g', 'l', 'x', 'o'},
-                {'x', 'x', 'x', 'D', 'T', 'r', 'a'},
-                {'R', 'E', 'P', 'E', 'A', 'd', 'x'},
-                {'x', 'x', 'x', 'x', 'x', 'x', 'x'},
-                {'N', 'O', 'T', 'R', 'E', '_', 'P'},
-                {'x', 'x', 'D', 'E', 'T', 'A', 'E'},
-            },
-            new String[] {
-                "this",
-                "is",
-                "not",
-                "a",
-                "simple",
-                "test",
-                "boggle",
-                "board",
-                "REPEATED",
-                "NOTRE_PEATED",
-            })
-                    .equals(ans));
     }
 
     public static void explore(int i, int j, char[][] board, TrieNode trieNode, boolean[][] visited, Set<String> finalWords) {
@@ -127,7 +104,7 @@ class Trie {
     TrieNode root;
     char endSymbol;
 
-    public Trie() {
+    Trie() {
         this.root = new TrieNode();
         this.endSymbol = '*';
     }
